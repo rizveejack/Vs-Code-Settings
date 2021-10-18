@@ -1,0 +1,76 @@
+{
+  "editor.renderWhitespace": "all",
+  "workbench.activityBar.visible": false,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.linkedEditing": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.renderControlCharacters": true,
+  "explorer.confirmDelete": false,
+  "diffEditor.wordWrap": "on",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "emmet.excludeLanguages": [
+    "markdown"
+  ],
+  "emmet.includeLanguages": {
+    "liquid": "html",
+    "javascript": "javascriptreact"
+  },
+  "window.menuBarVisibility": "toggle",
+  "bracketPairColorizer.colorMode": "Independent",
+  "bracketPairColorizer.independentPairColors": [
+    [
+      "()",
+      [
+        "FloralWhite"
+      ],
+      "Red"
+    ],
+    [
+      "[]",
+      [
+        "Aqua"
+      ],
+      "Red"
+    ],
+    [
+      "{}",
+      [
+        "Gold"
+      ],
+      "Red"
+    ]
+  ],
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.excludedItems": {
+    "**/*.js": {
+      "when": "**"
+    },
+    "**/*.jsx": {
+      "when": "**"
+    }
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript"
+  ],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "breadcrumbs.enabled": false,
+  "window.zoomLevel": 1,
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": null,
+}
