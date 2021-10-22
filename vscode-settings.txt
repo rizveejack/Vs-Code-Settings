@@ -1,84 +1,49 @@
 {
-  "editor.renderWhitespace": "all",
-  "workbench.activityBar.visible": false,
-  "kite.showWelcomeNotificationOnStartup": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Material Theme",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnType": true,
-  "editor.linkedEditing": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.renderControlCharacters": true,
-  "explorer.confirmDelete": false,
-  "diffEditor.wordWrap": "on",
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "emmet.excludeLanguages": [
-    "markdown"
-  ],
-  "emmet.includeLanguages": {
-    "liquid": "html",
-    "javascript": "javascriptreact"
-  },
-  "window.menuBarVisibility": "toggle",
-  "bracketPairColorizer.colorMode": "Independent",
-  "bracketPairColorizer.independentPairColors": [
-    [
-      "()",
-      [
-        "FloralWhite"
-      ],
-      "Red"
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1,
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "bracketPairColorizer.colorMode": "Independent",
+    "bracketPairColorizer.independentPairColors": [
+        [
+        "()",
+        [
+            "FloralWhite"
+        ],
+        "Red"
+        ],
+        [
+        "[]",
+        [
+            "Aqua"
+        ],
+        "Red"
+        ],
+        [
+        "{}",
+        [
+            "Gold"
+        ],
+        "Red"
+        ]
     ],
-    [
-      "[]",
-      [
-        "Aqua"
+    "[javascriptreact]": {
+        "editor.formatOnSave": true
+      },
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true
+      },
+      "eslint.alwaysShowStatus": true,
+      "eslint.validate": [
+        "javascript"
       ],
-      "Red"
-    ],
-    [
-      "{}",
-      [
-        "Gold"
-      ],
-      "Red"
-    ]
-  ],
-  "path-autocomplete.extensionOnImport": true,
-  "path-autocomplete.excludedItems": {
-    "**/*.js": {
-      "when": "**"
-    },
-    "**/*.jsx": {
-      "when": "**"
-    }
-  },
-
-  "[javascriptreact]": {
-    "editor.formatOnSave": true
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.organizeImports": true
-  },
-  "eslint.alwaysShowStatus": true,
-  "eslint.validate": ["javascript"],
-  "liveServer.settings.donotShowInfoMsg": true,
-  "breadcrumbs.enabled": false,
-  "window.zoomLevel": 1,
-  "editor.minimap.enabled": false,
-
-  "editor.defaultFormatter": null,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
-  
-  
+      "workbench.startupEditor": "none",
+      "git.confirmSync": false,
+      "git.autofetch": true,
 }
