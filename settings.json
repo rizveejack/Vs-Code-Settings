@@ -2,48 +2,50 @@
     "window.menuBarVisibility": "toggle",
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "One Dark Pro",
+    "workbench.statusBar.visible": true,
     "workbench.iconTheme": "material-icon-theme",
     "window.zoomLevel": 1,
     "explorer.confirmDelete": false,
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
     "editor.renderWhitespace": "none",
-    "bracketPairColorizer.colorMode": "Independent",
-    "bracketPairColorizer.independentPairColors": [
-        [
-        "()",
-        [
-            "FloralWhite"
-        ],
-        "Red"
-        ],
-        [
-        "[]",
-        [
-            "Aqua"
-        ],
-        "Red"
-        ],
-        [
-        "{}",
-        [
-            "Gold"
-        ],
-        "Red"
-        ]
-    ],
     "[javascriptreact]": {
         "editor.formatOnSave": true
       },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true
+    },
       "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
         "source.organizeImports": true
       },
       "eslint.alwaysShowStatus": true,
       "eslint.validate": [
-        "javascript"
+        "javascript","typescript", "typescriptreact"
       ],
       "workbench.startupEditor": "none",
       "git.confirmSync": false,
       "git.autofetch": true,
+      "[dart]": {
+        "editor.defaultFormatter": "Dart-Code.dart-code",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+          80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+      },
+      "typescript.updateImportsOnFileMove.enabled": "always",
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "dart.previewFlutterUiGuides": true,
+      "dart.previewFlutterUiGuidesCustomTracking": true,
+      "workbench.tree.renderIndentGuides": "always",
+      "editor.fontFamily": "'Fira Code'",
+      "editor.fontLigatures": true,
+      "editor.fontWeight": "300",
+      "editor.fontSize": 16
 }
