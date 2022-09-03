@@ -1,51 +1,98 @@
 {
-    "window.menuBarVisibility": "toggle",
-    "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.statusBar.visible": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "window.zoomLevel": 1,
-    "explorer.confirmDelete": false,
-    "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": false,
-    "editor.renderWhitespace": "none",
-    "[javascriptreact]": {
-        "editor.formatOnSave": true
-      },
-    "[typescriptreact]": {
-        "editor.formatOnSave": true
-    },
-      "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.organizeImports": true
-      },
-      "eslint.alwaysShowStatus": true,
-      "eslint.validate": [
-        "javascript","typescript", "typescriptreact"
-      ],
-      "workbench.startupEditor": "none",
-      "git.confirmSync": false,
-      "git.autofetch": true,
-      "[dart]": {
-        "editor.defaultFormatter": "Dart-Code.dart-code",
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.rulers": [
-          80
-        ],
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
-      },
-      "typescript.updateImportsOnFileMove.enabled": "always",
-      "javascript.updateImportsOnFileMove.enabled": "always",
-      "dart.previewFlutterUiGuides": true,
-      "dart.previewFlutterUiGuidesCustomTracking": true,
-      "workbench.tree.renderIndentGuides": "always",
-      "editor.fontFamily": "'Fira Code'",
-      "editor.fontLigatures": true,
-      "editor.fontWeight": "300",
-      "editor.fontSize": 16
+  "breadcrumbs.enabled": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Andromeda Italic Bordered",
+  "workbench.statusBar.visible": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 2,
+  "workbench.tree.renderIndentGuides": "always",
+  "explorer.confirmDelete": false,
+
+  // editor Settings
+  "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "none",
+  "editor.fontFamily": "operator mono lig",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Js Settings
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascript"
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // git settings
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  // dart settings
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+
+  // live server
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // cursor
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  // spell check settings
+  "cSpell.enableFiletypes": ["!json", "!jsonc"]
 }
